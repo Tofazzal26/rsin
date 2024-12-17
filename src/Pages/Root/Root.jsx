@@ -7,7 +7,6 @@ const Root = () => {
     <div className="font-WorkSan">
       <Header />
       <Outlet />
-      <h2>Footer</h2>
     </div>
   );
 };
