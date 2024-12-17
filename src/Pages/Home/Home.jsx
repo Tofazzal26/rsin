@@ -1,9 +1,12 @@
 import React from "react";
+import Banner from "../../Components/Banner/Banner";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <div className="my-4 lg:my-[100px]">
+        <Banner />
+      </div>
     </div>
   );
 };

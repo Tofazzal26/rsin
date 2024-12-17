@@ -99,7 +99,7 @@ const Header = () => {
             <a className="btn btn-ghost">
               <NavLink to="/">
                 {" "}
-                <h2 className="text-[#005397] text-[35px] tracking-[2px]">
+                <h2 className="text-[#005397] text-[20px] lg:text-[35px] tracking-[2px]">
                   RS<span className="text-[#36B0BE]">I</span>N
                 </h2>
               </NavLink>
@@ -176,7 +176,7 @@ const Header = () => {
               <button className=" rounded-full text-[#005397] text-sm font-semibold ">
                 Login
               </button>
-              <button className="bg-[#005397] rounded-full text-white px-4 py-2 text-sm font-semibold ">
+              <button className="bg-[#005397] rounded-full text-white px-3  lg:px-4 py-2 text-xs lg:text-sm font-semibold ">
                 Apply Now
               </button>
             </div>
