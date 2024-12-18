@@ -29,7 +29,7 @@ const OurSolutions = () => {
                 </h2>
               </div>
               <Accordion />
-              <div className="mt-4 lg:mt-10">
+              <div className="mt-4 lg:mt-10 lg:mb-0 mb-4">
                 <div className="space-x-4 lg:text-start text-center">
                   <button className="bg-[#005397] lg:px-6 px-4 py-3 lg:py-4 font-semibold text-sm rounded-full text-white">
                     Get Started

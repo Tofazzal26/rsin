@@ -4,6 +4,7 @@ import FeatureTrusted from "../../Components/FeatureTrusted/FeatureTrusted";
 import AboutUs from "../../Components/AboutUs/AboutUs";
 import OurSolutions from "../../Components/OurSolutions/OurSolutions";
 import Testimonial from "../../Components/Testimonial/Testimonial";
+import OurProcess from "../../Components/OurProcess/OurProcess";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <AboutUs />
         <OurSolutions />
         <Testimonial />
+        <OurProcess />
       </div>
     </div>
   );
