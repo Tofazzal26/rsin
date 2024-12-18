@@ -59,7 +59,7 @@ const Testimonial = () => {
           <div className="flex flex-col lg:flex-row justify-between lg:items-center">
             <div>
               <h2 className="text-[#7CE4A1] text-[20px]">Testimonial</h2>
-              <h2 className="lg:text-[42px] font-semibold text-white lg:w-[500px] mt-2 lg:leading-[60px]">
+              <h2 className="lg:text-[42px] font-semibold text-white lg:w-[500px] mt-2 mb-0 lg:mb-4 lg:leading-[60px]">
                 For nearly 07 years, people have chosen VISAThing!
               </h2>
             </div>
