@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <div className=" bg-[#f3f7fb]">
+    <div>
       <div className="container mx-auto">
         <div className="flex lg:flex-row flex-col justify-center gap-4 py-4 lg:py-[100px]">
           <div>

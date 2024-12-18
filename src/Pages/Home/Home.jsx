@@ -2,6 +2,8 @@ import React from "react";
 import Banner from "../../Components/Banner/Banner";
 import FeatureTrusted from "../../Components/FeatureTrusted/FeatureTrusted";
 import AboutUs from "../../Components/AboutUs/AboutUs";
+import OurSolutions from "../../Components/OurSolutions/OurSolutions";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -10,7 +12,11 @@ const Home = () => {
         <Banner />
       </div>
       <FeatureTrusted />
-      <AboutUs />
+      <div className=" bg-[#f3f7fb]">
+        <AboutUs />
+        <OurSolutions />
+        <Testimonial />
+      </div>
     </div>
   );
 };
