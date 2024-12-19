@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <div className="bg-base-100 shadow-NavShadow">
+    <div className="fixed z-50 w-full  top-0">
+      <div className="bg-base-100 shadow-NavShadow ">
         <div className="navbar container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">

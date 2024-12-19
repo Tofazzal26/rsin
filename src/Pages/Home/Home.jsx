@@ -11,7 +11,7 @@ import FrequentlyQuestions from "../../Components/FrequentlyQuestions/Frequently
 const Home = () => {
   return (
     <div>
-      <div className="my-4 lg:my-[100px]">
+      <div className="my-4 lg:mb-[100px] lg:mt-[150px] mt-[80px]">
         <Banner />
       </div>
       <FeatureTrusted />

@@ -80,10 +80,10 @@ const Testimonial = () => {
               </div>
               <div className="lg:space-x-8 space-x-4 lg:mb-0 mb-2">
                 <button className="bg-white px-3 py-3 rounded-xl">
-                  <HiOutlineArrowNarrowRight size={25} color="#005397" />
+                  <HiOutlineArrowNarrowLeft size={25} color="#005397" />
                 </button>
                 <button className="bg-white px-3 py-3 rounded-xl">
-                  <HiOutlineArrowNarrowLeft size={25} color="#005397" />
+                  <HiOutlineArrowNarrowRight size={25} color="#005397" />
                 </button>
               </div>
             </div>

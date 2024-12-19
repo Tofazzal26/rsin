@@ -4,7 +4,7 @@ const AboutUs = () => {
       <div className="container mx-auto">
         <div className="flex lg:flex-row flex-col justify-center gap-4 py-4 lg:py-[100px]">
           <div>
-            <div className="bg-white p-6 lg:w-[700px] lg:h-[870px] rounded-lg">
+            <div className="bg-white p-6 lg:w-[700px] lg:h-[870px] rounded-lg relative">
               <div className="lg:translate-y-[150px]">
                 <h2 className="text-[15px] lg:text-[20px] text-[#21763F]">
                   About Us
@@ -60,6 +60,8 @@ const AboutUs = () => {
                   </h2>
                 </div>
               </div>
+              <div className="bg-[#f9f9fb] w-[95px] h-[95px]  hidden lg:block absolute top-5 right-5 opacity-80"></div>
+              <div className="bg-[#f9f9fb] w-[170px] h-[170px]  hidden lg:block absolute top-[70px] right-[70px] opacity-80"></div>
             </div>
           </div>
           <div>
