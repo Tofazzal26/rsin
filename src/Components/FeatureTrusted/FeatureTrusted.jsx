@@ -8,13 +8,37 @@ const FeatureTrusted = () => {
           Feature in Trusted by <HiArrowLongRight size={30} />
         </h2>
         <div>
-          <div className="flex lg:flex-row flex-col justify-between items-center">
-            <img src="/company1.png" alt="" className="w-[200px]" />
-            <img src="/company2.png" alt="" className="w-[200px]" />
-            <img src="/company3.png" alt="" className="w-[200px]" />
-            <img src="/company4.png" alt="" className="w-[200px]" />
-            <img src="/company5.png" alt="" className="w-[200px]" />
-            <img src="/company6.png" alt="" className="w-[200px]" />
+          <div className="flex lg:flex-row flex-wrap justify-between items-center">
+            <img
+              src="/company1.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
+            <img
+              src="/company2.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
+            <img
+              src="/company3.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
+            <img
+              src="/company4.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
+            <img
+              src="/company5.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
+            <img
+              src="/company6.png"
+              alt=""
+              className="w-[150px] lg:w-[200px]"
+            />
           </div>
         </div>
       </div>
