@@ -139,7 +139,7 @@ const Footer = () => {
                           <img
                             src="/play.png"
                             alt=""
-                            className="w-[140px] lg:ml-1"
+                            className="w-[140px] lg:ml-1 ml-1"
                           />
                         </li>
                         <li className="link link-hover lg:ml-3 font-semibold text-sm text-gray-400">
