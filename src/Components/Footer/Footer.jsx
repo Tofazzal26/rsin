@@ -84,8 +84,8 @@ const Footer = () => {
             </nav>
           </div>
           <div className="container mx-auto">
-            <div className="p-5 lg:p-10 border-t-[1px] border-gray-100">
-              <div className="flex lg:flex-row flex-col justify-between ">
+            <div className="p-5 lg:p-10 ">
+              <div className="flex lg:flex-row flex-col justify-between border-t-[1px] border-gray-100 pt-4 lg:pt-10">
                 <div>
                   <h2 className="font-semibold text-lg text-gray-600 mb-4">
                     Contact Us
@@ -157,6 +157,30 @@ const Footer = () => {
                         </li>
                       </ul>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#eff1f5]">
+            <div className="container mx-auto">
+              <div className="p-2 lg:py-4 lg:px-10 px-4">
+                <div className="flex lg:flex-row flex-col justify-between lg:gap-0 gap-3 items-center">
+                  <div>
+                    <h2 className="font-semibold text-gray-600 text-sm text-center lg:text-start">
+                      Copyright RSIN@2024 . All rights reserved. V-0.1.14
+                    </h2>
+                  </div>
+                  <div className=" space-x-4 lg:space-x-8 text-center lg:text-start">
+                    <span className="font-semibold text-gray-600 text-sm">
+                      Terms and Conditions
+                    </span>
+                    <span className="font-semibold text-gray-600 text-sm">
+                      Privacy policy
+                    </span>
+                    <span className="font-semibold text-gray-600 text-sm">
+                      Cookie Settings
+                    </span>
                   </div>
                 </div>
               </div>
